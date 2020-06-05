@@ -1,0 +1,80 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>This is an API example for the HPC CF RESTful APIs</h1>
+<p>
+<a href="https://www.hpc-certification.org/api/use/1/1/b?fields=all">https://www.hpc-certification.org/api/use/1/1/b?fields=all</a>
+and <a href="https://www.hpc-certification.org/api/?list">https://www.hpc-certification.org/api/?list</a>.
+</p>
+
+<div id="main">
+</div>
+
+<script>
+  function renderSkillData(data){
+    console.log("renderSkillData");
+    console.log(data);
+    var elems = "";
+    for(g in data){
+      elems += "<h1>" + g + "</h1>";
+      if(Array.isArray(data[g])){
+        elems += "<ul>";
+        for(x in data[g]){
+          elems += "<li>" + data[g][x] + "</li>";
+        }
+        elems += "</ul>";
+      }else{
+        elems += "<p>" + data[g] + "</p>";
+      }
+    }
+    $("div").append(elems);
+  }
+
+  function renderListData(data){
+    console.log("renderListData");
+    console.log(data);
+
+    var list = "";
+    for(e in data){
+      list += "<li>" + data[e] + "</li>";
+    }
+    $("div").append("<h1>List of skills</h1><ul>" + list + "</ul>");
+  }
+
+  function renderSkill(url){
+    $.ajax({
+      url: url,
+      dataType: "json",
+      mimeType: "application/json",
+      success: renderSkillData,
+      error: function(jqXHR, textStatus, error) {
+        console.log("jqXHR: '", jqXHR, "'");
+        console.log("textStatus: '", textStatus, "'");
+        console.log("error: '", error, "'");
+      }
+    });
+  }
+  function renderList(url){
+    $.ajax({
+      url: url,
+      dataType: "json",
+      mimeType: "application/json",
+      success: renderListData,
+      error: function(jqXHR, textStatus, error) {
+        console.log("jqXHR: '", jqXHR, "'");
+        console.log("textStatus: '", textStatus, "'");
+        console.log("error: '", error, "'");
+      }
+    });
+  }
+  $( document ).ready(function() {
+    renderSkill("https://www.hpc-certification.org/api/use/1/1/b?fields=all");
+    renderList("https://www.hpc-certification.org/api/?list");
+  } );
+</script>
+
+</body>
+</html>
