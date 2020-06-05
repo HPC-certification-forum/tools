@@ -1,0 +1,585 @@
+[
+  {
+    "id": "PE",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Performance Engineering"
+  },
+  {
+    "id": "PE1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Cost Awareness"
+  },
+  {
+    "id": "PE3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Benchmarking"
+  },
+  {
+    "id": "PE4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Tuning"
+  },
+  {
+    "id": "PE4.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Tuning without Building a Parallel Program"
+  },
+  {
+    "id": "PE4.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Tuning via Reprogramming"
+  },
+  {
+    "id": "PE4.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Tuning without Modifying the Source Code"
+  },
+  {
+    "id": "PE2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Measuring System Performance"
+  },
+  {
+    "id": "PE2.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Using Standard Tools"
+  },
+  {
+    "id": "PE2.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Profiling"
+  },
+  {
+    "id": "PE5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Optimization Cycle"
+  },
+  {
+    "id": "K",
+    "define": "core data",
+    "level": "Merged",
+    "name": "HPC Knowledge"
+  },
+  {
+    "id": "K1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Supercomputers"
+  },
+  {
+    "id": "K1.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "System Architectures"
+  },
+  {
+    "id": "K1.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "I/O Architectures"
+  },
+  {
+    "id": "K1.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Operation of an HPC System"
+  },
+  {
+    "id": "K1.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Hardware Architectures"
+  },
+  {
+    "id": "K1.5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Supercomputing and Big Data"
+  },
+  {
+    "id": "K3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Program Parallelization"
+  },
+  {
+    "id": "K3.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Level of Parallelization"
+  },
+  {
+    "id": "K3.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Domain Decomposition"
+  },
+  {
+    "id": "K3.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Autoparallelization"
+  },
+  {
+    "id": "K3.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Parallelization Overheads"
+  },
+  {
+    "id": "K4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Job Scheduling"
+  },
+  {
+    "id": "K4.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Introduction to job scheduling"
+  },
+  {
+    "id": "K4.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "SLURM Workload manager"
+  },
+  {
+    "id": "K2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Performance Modeling"
+  },
+  {
+    "id": "K2.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Performance Frontiers"
+  },
+  {
+    "id": "K2.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Bounds for a Parallel Program"
+  },
+  {
+    "id": "K5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Modeling Costs"
+  },
+  {
+    "id": "SD",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software Development"
+  },
+  {
+    "id": "SD1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Programming Concepts for HPC"
+  },
+  {
+    "id": "SD1.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Programming Languages"
+  },
+  {
+    "id": "SD1.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Efficient Algorithms and Data Structures"
+  },
+  {
+    "id": "SD1.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Parallel Programming"
+  },
+  {
+    "id": "SD1.2.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Parallel Algorithms"
+  },
+  {
+    "id": "SD1.2.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Programming Message Passing Systems"
+  },
+  {
+    "id": "SD1.2.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Load Balancing"
+  },
+  {
+    "id": "SD1.2.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Shared Memory Systems"
+  },
+  {
+    "id": "SD1.2.5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "I/O Programming"
+  },
+  {
+    "id": "SD6",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software Design and Software Architecture"
+  },
+  {
+    "id": "SD6.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Requirements Elicitation and Analysis"
+  },
+  {
+    "id": "SD6.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software Architecture"
+  },
+  {
+    "id": "SD6.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Object-Oriented Design"
+  },
+  {
+    "id": "SD3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software Configuration Management"
+  },
+  {
+    "id": "SD3.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Introduction"
+  },
+  {
+    "id": "SD3.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Issue Tracking and Bug Tracking"
+  },
+  {
+    "id": "SD3.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Release Management"
+  },
+  {
+    "id": "SD3.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Version Control"
+  },
+  {
+    "id": "SD3.5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Deployment Management"
+  },
+  {
+    "id": "SD4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Agile Methods"
+  },
+  {
+    "id": "SD4.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Test-driven Development and Agile Testing"
+  },
+  {
+    "id": "SD4.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "SCRUM"
+  },
+  {
+    "id": "SD4.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Extreme Programming"
+  },
+  {
+    "id": "SD2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Programming Best Practices"
+  },
+  {
+    "id": "SD2.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Integrated Development Environments"
+  },
+  {
+    "id": "SD2.6",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Coding Standards"
+  },
+  {
+    "id": "SD2.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Programming Idioms"
+  },
+  {
+    "id": "SD2.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Logging"
+  },
+  {
+    "id": "SD2.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Debugging"
+  },
+  {
+    "id": "SD2.7",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Testing"
+  },
+  {
+    "id": "SD2.5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Exception Handling"
+  },
+  {
+    "id": "SD2.8",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Portability"
+  },
+  {
+    "id": "SD7",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Documentation"
+  },
+  {
+    "id": "SD7.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Requirements Documentation"
+  },
+  {
+    "id": "SD7.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Source Code Documentation"
+  },
+  {
+    "id": "SD7.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Documentation for Reproducibility"
+  },
+  {
+    "id": "SD7.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software Architecture and Software Design Documentation"
+  },
+  {
+    "id": "SD5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software Quality"
+  },
+  {
+    "id": "SD5.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Coding Standards"
+  },
+  {
+    "id": "SD5.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Refactoring"
+  },
+  {
+    "id": "SD5.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Code Reviews"
+  },
+  {
+    "id": "SD5.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Code Quality"
+  },
+  {
+    "id": "ADM",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Administration"
+  },
+  {
+    "id": "ADM1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Cluster infrastructure"
+  },
+  {
+    "id": "ADM3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Monitoring tools"
+  },
+  {
+    "id": "ADM2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software stack"
+  },
+  {
+    "id": "USE",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Use of the HPC Environment"
+  },
+  {
+    "id": "USE1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Cluster Operating System"
+  },
+  {
+    "id": "USE1.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Command Line Interface"
+  },
+  {
+    "id": "USE1.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "UNIX File System Tree"
+  },
+  {
+    "id": "USE1.4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Software Environment"
+  },
+  {
+    "id": "USE1.4.1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Overview"
+  },
+  {
+    "id": "USE1.4.3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Spack"
+  },
+  {
+    "id": "USE1.4.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Environment Modules"
+  },
+  {
+    "id": "USE1.2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Shell Scripts"
+  },
+  {
+    "id": "USE1.5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Remote Access"
+  },
+  {
+    "id": "USE6",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Integration into distributed workflows"
+  },
+  {
+    "id": "USE3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Building of Parallel Programs"
+  },
+  {
+    "id": "USE4",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Developing Parallel Programs"
+  },
+  {
+    "id": "USE2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Running of Parallel Programs"
+  },
+  {
+    "id": "USE5",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Automatizing common tasks"
+  },
+  {
+    "id": "BDA",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Big Data Analytics"
+  },
+  {
+    "id": "BDA1",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Theoretic principles of BDA"
+  },
+  {
+    "id": "BDA3",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Integrating BDA with HPC workflows"
+  },
+  {
+    "id": "BDA2",
+    "define": "core data",
+    "level": "Merged",
+    "name": "Big Data Tools in HPC"
+  },
+  {
+    "id": "ST",
+    "define": "core data",
+    "category": "All",
+    "name": "Skill Tree",
+    "level": "Merged"
+  }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/libs/skill-tree.min.js"></script>
+<script src="assets/libs/raphael.min.js"></script>
+<script src="assets/libs/Treant.js"></script>
+<link type="text/css" rel="stylesheet" href="assets/treant.css">
+<link type="text/css" rel="stylesheet" href="assets/skill-tree.css">
+</head>
+<body>
+
+<h1>This is an example for the JavaScript skill renderer</h1>
+
+<div id="main">
+</div>
+<div class="links" id="pfad"></div>
+<script>
+      // e.g., append window.location.origin
+      var dirname = "assets/"
+      SkillTreeViewer("#pfad", {
+          "all": [
+              dirname + "skill-data.json",
+              dirname + "skill-links.json",
+              dirname + "skill-tree-structure.json"
+          ]
+// add a second view if relevant to you
+//          "reduced": [
+//              dirname + "skill-data.json",
+//              dirname + "skill-descriptions.json",
+//              dirname + "skill-tree-structure.json"
+//          ],
+      });
+</script>
+
+</body>
+</html>
